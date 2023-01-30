@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:regular,500,700&display=swap');
+
+
+body {
+   box-sizing: border-box;
+   font-family: 'DM Sans';
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+.button {
+   width: 150px;
+   height: 50px;
+   border: 1.5px solid #FFFFFF;
+   border-radius: 50px;
+   color: #FFFFFF;
+   cursor: pointer;
+}
+
+.header__button {
+   background: transparent;
+   outline: none;
+}
+
+.preview__button {
+   color: #0F2137;
+}
+
+/* ================================== HEADER ========================================= */
+.wrapper {}
+
+.preview {
+   background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
+   border-bottom-right-radius: 300px;
+   padding: 31px 0 212px;
+   color: #fff;
+}
+
+.container {
+   max-width: 1251px;
+   margin: 0 auto;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 110px;
+}
+
+.header__nav {}
+
+.header__logo {
+   display: flex;
+   align-items: center;
+   gap: 11px;
+}
+
+.header__img {}
+
+.header__title {
+   font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+}
+
+.header__list {
+   display: flex;
+   /* justify-content: space-between; */
+   width: 502px;
+   max-width: 100%;
+   gap: 35px;
+}
+
+.header__item{
+   display: flex;
+   gap: 3px;
+   align-items: center;
+}
+
+/* ========================================= SECTION HERO =================================================== */
+.preview__hero {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.preview__left {}
+
+.preview__title {
+   font-weight: 700;
+   font-size: 85px;
+   line-height: 100px;
+   letter-spacing: -2px;
+   width: 642px;
+   max-width: 100%;
+   margin-bottom: 29px;
+}
+
+.preview__text {
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 42px;
+   margin-bottom: 38px;
+   width: 507px;
+   max-width: 100%;
+}
+
+.preview__buttons {
+   margin-bottom: 37px;
+}
+
+.preview__button {
+   margin-right: 20px;
+}
+
+.preview__play {
+   font-weight: 500;
+   line-height: 24px;
+   text-align: center;
+   letter-spacing: -0.16px;
+}
+
+.social {
+   display: flex;
+   gap: 21px;
+   align-items: center;
+}
+
+.social__text {
+   line-height: 42px;
+   opacity: 0.6;
+}
+
+.social__content {
+   display: flex;
+   gap: 21px;
+   align-items: center;
+}
+
+.social__item {}
+
+.social__img {}
