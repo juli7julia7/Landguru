@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Sans:regular,500,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap'); */
 
 
-body {
+* {
    box-sizing: border-box;
-   font-family: 'DM Sans';
+   font-family: 'DM Sans', sans-serif !important;
 }
 
 a {
@@ -63,8 +63,8 @@ a {
 
 .header__title {
    font-weight: 700;
-      font-size: 20px;
-      line-height: 24px;
+   font-size: 20px;
+   line-height: 24px;
 }
 
 .header__list {
@@ -75,10 +75,14 @@ a {
    gap: 35px;
 }
 
-.header__item{
+.header__item {
    display: flex;
    gap: 3px;
    align-items: center;
+}
+
+.header__item-small {
+   transform: rotate(180deg);
 }
 
 /* ========================================= SECTION HERO =================================================== */
@@ -144,3 +148,136 @@ a {
 .social__item {}
 
 .social__img {}
+
+
+/* ====================================== SECTION FEATURE  =============================================== */
+
+
+.feature-container {
+   max-width: 990px;
+   margin: 65px auto 199px;
+}
+
+
+.feature__titles {
+   text-align: center;
+   margin: 0 auto 78px;
+
+}
+
+.feature__subtitle {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 40px;
+   letter-spacing: 2.1px;
+   text-transform: uppercase;
+   color: #244886;
+   margin-bottom: 10px;
+}
+
+.feature__title {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 55px;
+   letter-spacing: -1.5px;
+   color: #0F2137;
+}
+
+.feature__content {
+   display: flex;
+   gap: 100px;
+}
+
+.feature__items {
+   text-align: center;
+   margin: 0 auto;
+}
+
+.feature__icon {
+   margin-bottom: 21px;
+}
+
+.feature__img {}
+
+.feature__items-title {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 30px;
+   color: #0F2137;
+   margin-bottom: 20px;
+}
+
+.feature__items-text {
+   font-size: 15px;
+   line-height: 28px;
+   color: #343D48;
+   width: 265px;
+   max-width: 100%;
+}
+
+/* ============================================== SECTION SMART  ============================================== */
+.smart {
+   margin: 0 auto 166px;
+   display: flex;
+   justify-content: center;
+   gap: 98px;
+}
+
+.container {}
+
+.smart__left {}
+
+.smart__img {}
+
+.smart__right {
+   align-self: center;
+}
+
+.smart__subtitle {
+   font-weight: 700;
+      font-size: 14px;
+      line-height: 40px;
+      letter-spacing: 2.1px;
+      text-transform: uppercase;
+      color: #244886;
+      margin-bottom: 28px;
+}
+
+.smart__title {
+   font-weight: 700;
+      font-size: 48px;
+      line-height: 55px;
+      letter-spacing: -1.5px;
+      color: #0F2137;
+      width: 510px;
+      max-width: 100%;
+      margin-bottom: 54px;
+}
+
+.smart__content {}
+
+.content:not(:last-of-type) {
+margin-bottom: 39px;
+}
+
+.content{
+   display: flex;
+   gap: 22px;
+}
+
+
+.contnet__title {
+   font-weight: 700;
+      font-size: 18px;
+      line-height: 23px;
+      color: #0F2137;
+      margin-bottom: 19px;
+}
+
+.contnet__text {
+   font-size: 15px;
+   line-height: 26px;
+   color: #343D48;
+   width: 355px;
+   max-width: 100%;
+}
