@@ -29,6 +29,17 @@ a {
    color: #0F2137;
 }
 
+
+.subtitle {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 40px;
+   text-align: center;
+   letter-spacing: 2.1px;
+   text-transform: uppercase;
+   color: #244886;
+}
+
 /* ================================== HEADER ========================================= */
 .wrapper {}
 
@@ -166,12 +177,6 @@ a {
 }
 
 .feature__subtitle {
-   font-weight: 700;
-   font-size: 14px;
-   line-height: 40px;
-   letter-spacing: 2.1px;
-   text-transform: uppercase;
-   color: #244886;
    margin-bottom: 10px;
 }
 
@@ -234,50 +239,193 @@ a {
 }
 
 .smart__subtitle {
-   font-weight: 700;
-      font-size: 14px;
-      line-height: 40px;
-      letter-spacing: 2.1px;
-      text-transform: uppercase;
-      color: #244886;
-      margin-bottom: 28px;
+   margin-bottom: 28px;
 }
 
 .smart__title {
    font-weight: 700;
-      font-size: 48px;
-      line-height: 55px;
-      letter-spacing: -1.5px;
-      color: #0F2137;
-      width: 510px;
-      max-width: 100%;
-      margin-bottom: 54px;
+   font-size: 48px;
+   line-height: 55px;
+   letter-spacing: -1.5px;
+   color: #0F2137;
+   width: 510px;
+   max-width: 100%;
+   margin-bottom: 54px;
 }
 
 .smart__content {}
 
 .content:not(:last-of-type) {
-margin-bottom: 39px;
+   margin-bottom: 39px;
 }
 
-.content{
+.content {
    display: flex;
-   gap: 22px;
+   gap: 18px;
 }
-
 
 .contnet__title {
    font-weight: 700;
-      font-size: 18px;
-      line-height: 23px;
-      color: #0F2137;
-      margin-bottom: 19px;
+   font-size: 18px;
+   line-height: 23px;
+   color: #0F2137;
+   margin-bottom: 19px;
 }
 
 .contnet__text {
    font-size: 15px;
    line-height: 26px;
    color: #343D48;
-   width: 355px;
-   max-width: 100%;
+   max-width: 355px;
+   width: 100%;
+}
+
+/* =================================================== SECTION APP  =========================================== */
+.app {
+   margin: 0 auto 218px;
+}
+
+.container {}
+
+.app__subtitle {
+   margin-bottom: 10px;
+}
+
+.app__title {
+   text-align: center;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 55px;
+   letter-spacing: -1.5px;
+   color: #0F2137;
+   margin: 0 auto 78px;
+}
+
+.app__content {
+   display: flex;
+   gap: 66px;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.contnet__text-app {
+   max-width: 263px;
+   width: 100%;
+}
+
+.content-app {
+   gap: 25px;
+}
+
+
+.content__item-app {
+   position: relative;
+   top: 8px;
+}
+
+/* ============================================  SECTION JACKPOTS  ============================================== */
+.jackpots {
+   margin: 0 auto 234px;
+   display: flex;
+   align-items: center;
+}
+
+.container {}
+
+.jackpots__left {
+  
+}
+
+.jackpots__subtitle {
+   text-align: left;
+   margin-bottom: 8px;
+}
+
+.jackpots__title {
+   font-weight: 700;
+      font-size: 48px;
+      line-height: 55px;
+      letter-spacing: -1.5px;
+      color: #0F2137;
+      margin-bottom: 40px;
+}
+
+.jackpots__text {
+   font-size: 18px;
+      line-height: 42px;
+      color: #02073E;
+      max-width: 454px;
+      width: 100%;
+      margin-bottom: 30px;
+}
+
+.jackpots__button {
+   background: #1F3E76;
+}
+/* ============================================   SECTION FUNCTION  ================================================== */
+.function {
+   background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
+   padding: 90px 0 156px;
+   color: #fff;
+}
+
+.container {}
+
+.function__subtitle {
+   color: #FFFFFF;
+   opacity: 0.7;
+   margin-bottom: 2px;
+}
+
+.subtitle {}
+
+.function__title {
+   font-weight: 700;
+      font-size: 36px;
+      line-height: 55px;
+      text-align: center;
+      letter-spacing: -1.5px;
+      margin-bottom: 148px;
+}
+
+.function__block {
+   display: flex;
+   gap: 60px;
+}
+
+.function__content {
+   max-width: 263px;
+   width: 100%;
+}
+
+.function__icon {
+   margin-bottom: 25px;
+   height: 72px;
+      width: 72px;
+      border-radius: 45%;
+      background: #fff;
+      position: relative;
+}
+
+.function__icon-number {
+   font-size: 30px;
+      line-height: 38px;
+      color: #22437D;
+      position: absolute;
+      top: 17px;
+      left: 17px;
+      
+}
+
+.function__content-title {
+   font-weight: 700;
+      font-size: 22px;
+      line-height: 155%;
+      margin-bottom: 15px;
+}
+
+.function__content-text {
+   font-size: 15px;
+      line-height: 26px;
+      opacity: 0.65;
 }
