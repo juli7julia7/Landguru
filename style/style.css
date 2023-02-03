@@ -586,7 +586,6 @@ a {
    padding: 60px 0 98px;
 }
 
-.container {}
 
 .plan__subtitle {
    color: #FFFFFF;
@@ -594,7 +593,6 @@ a {
    margin-bottom: 2px;
 }
 
-.subtitle {}
 
 .plan__title {
    font-weight: 700;
@@ -742,3 +740,108 @@ a {
 .plan__premium-button {}
 
 .button--blue {}
+
+/* ====================================== SECTION QUESTION ====================================== */
+.question {
+   margin: 127px auto 139px;
+   color: #0F2137;
+}
+
+.container {}
+
+.question__subtitle {}
+
+.subtitle {}
+
+.question__title {
+   font-weight: 700;
+      font-size: 36px;
+      line-height: 55px;
+      text-align: center;
+      letter-spacing: -1.5px;
+      margin-bottom: 92px;
+}
+
+.question__content {
+      margin: 0 auto;
+   max-width: 760px;
+   width: 100%;
+}
+
+.question__list {}
+
+.question__item {
+   font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;   
+      letter-spacing: -0.5px;
+      margin-bottom: 9px;
+}
+
+.question__line{
+   width: 100%;
+      height: 3px;   
+      background: #E5ECF4;
+      margin-bottom: 18px;
+}
+
+.question__info {
+   line-height: 32px;
+      color: #343D48;
+      display: none;
+}
+
+
+/* =================================== SECTION ABOUT ============================================ */
+.about {
+
+
+}
+
+.about.container{
+   max-width: 900px;
+margin: 0 auto 124px;
+}
+
+.about__line{
+   width: 100%;
+   height: 3px;
+   background: #E5ECF4;
+   margin-bottom: 58px;
+}
+
+.about__block{
+   display: flex;
+   gap: 100px;
+}
+
+.container {}
+
+.about__content {}
+
+.about__title {
+   font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      /* identical to box height, or 167% */
+   
+      letter-spacing: -0.5px;
+   
+      color: #0F2137;
+      margin-bottom: 28px;
+}
+
+.about__list {}
+
+.about__item {}
+
+.about__link {
+   font-size: 14px;
+      line-height: 250%;
+      /* or 35px */
+   
+   
+      color: #02073E;
+   
+      opacity: 0.8;
+}
