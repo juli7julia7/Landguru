@@ -103,6 +103,9 @@ a {
    display: flex;
    align-items: center;
    gap: 11px;
+   cursor: pointer;
+   position: relative;
+   z-index: 1;
 }
 
 .header__img {}
@@ -129,6 +132,14 @@ a {
 .header__item-small {
    transform: rotate(180deg);
 }
+
+.header__item-up {}
+
+.up { 
+   display: none;
+}
+
+.up__link {}
 
 /* 
 ==============================  DECOR ====================================== */
@@ -596,8 +607,9 @@ a {
 
 
 /* ================================================= SECTION MEET  ==================================================== */
-.meet {
+.meet.container {
    margin: 106px auto 140px;
+   max-width: 1327px;
 }
 
 .meet__subtitle {}
@@ -616,12 +628,16 @@ a {
 
 .meet__block {
    display: flex;
-   gap: 52px;
+   gap: 38px;
    margin-bottom: 48px;
    justify-content: center;
 }
 
-.meet__content {}
+.meet__content {
+   padding: 33px 14px 37px 40px;
+   max-width: 422px;
+   box-shadow: 0px 6px 47px rgba(38, 78, 118, 0.1);
+}
 
 .meet__stars {
    display: flex;
@@ -678,6 +694,7 @@ a {
 }
 
 .meet__arrow {
+   margin-top: 48px;
    display: flex;
    justify-content: center;
    gap: 14px;
