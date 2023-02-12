@@ -1,5 +1,3 @@
-
-
 const slider = $('.meet__block').bxSlider({
    pager: false,
    // mode: 'fade',

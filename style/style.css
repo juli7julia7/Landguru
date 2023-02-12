@@ -86,7 +86,7 @@ a {
 }
 
 .container {
-   max-width: 1251px;
+   max-width: 1281px;
    margin: 0 auto;
 }
 
@@ -95,6 +95,8 @@ a {
    justify-content: space-between;
    align-items: center;
    margin-bottom: 110px;
+   padding-left: 15px;
+      padding-right: 15px;
 }
 
 .header__nav {}
@@ -218,6 +220,8 @@ a {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   padding-left: 15px;
+   padding-right: 15px;
 
 }
 
@@ -293,11 +297,10 @@ a {
 
 /* ====================================== SECTION FEATURE  =============================================== */
 
-.function {
-   position: relative;
-}
 
 .feature-container {
+   padding-left: 15px;
+   padding-right: 15px;
    max-width: 990px;
    margin: 65px auto 199px;
 }
@@ -323,6 +326,7 @@ a {
 
 .feature__content {
    display: flex;
+   /* flex-wrap: wrap; */
    gap: 100px;
 }
 
@@ -402,6 +406,7 @@ a {
 .smart {
    margin: 0 auto 166px;
    display: flex;
+   flex-wrap: wrap;
    justify-content: center;
    gap: 98px;
 }
@@ -418,6 +423,7 @@ a {
 
 .smart__subtitle {
    margin-bottom: 28px;
+   text-align: left;
 }
 
 .smart__title {
@@ -426,8 +432,8 @@ a {
    line-height: 55px;
    letter-spacing: -1.5px;
    color: #0F2137;
-   width: 510px;
-   max-width: 100%;
+   max-width: 510px;
+   width: 100%;
    margin-bottom: 54px;
 }
 
@@ -461,6 +467,8 @@ a {
 /* =================================================== SECTION APP  =========================================== */
 .app {
    margin: 0 auto 218px;
+   /* padding-left: 15px;
+   padding-right: 15px; */
 }
 
 .container {}
@@ -506,6 +514,8 @@ a {
    margin: 0 auto 234px;
    display: flex;
    align-items: center;
+   padding-left: 15px;
+   padding-right: 15px;
 }
 
 .container {}
@@ -524,6 +534,7 @@ a {
    letter-spacing: -1.5px;
    color: #0F2137;
    margin-bottom: 40px;
+   max-width: 510px;
 }
 
 .jackpots__text {
@@ -540,8 +551,9 @@ a {
 /* ============================================   SECTION FUNCTION  ================================================== */
 .function {
    background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
-   padding: 90px 0 156px;
+   padding: 90px 15px 156px;
    color: #fff;
+   position: relative;
 }
 
 .container {}
@@ -607,6 +619,10 @@ a {
 
 
 /* ================================================= SECTION MEET  ==================================================== */
+.meet{
+   padding-left: 15px;
+}
+
 .meet.container {
    margin: 106px auto 140px;
    max-width: 1327px;
@@ -715,7 +731,7 @@ a {
 .payment .container {
    background: linear-gradient(287.67deg, rgba(255, 253, 230, 0.35) -3.53%, rgba(255, 253, 230, 0.07) -3.52%, rgba(224, 239, 250, 0.35) 92.55%);
    border-radius: 250px 0px 0px 0px;
-   padding: 130px 0 0;
+   padding: 130px 15px 0;
    display: flex;
    gap: 62px;
 }
@@ -761,7 +777,7 @@ a {
 .plan {
    background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
    color: #fff;
-   padding: 60px 0 98px;
+   padding: 60px 15px 98px;
    position: relative;
 }
 
@@ -785,6 +801,7 @@ a {
 .plan__block {
    display: flex;
    gap: 30px;
+   flex-wrap: wrap;
    justify-content: center;
 }
 
@@ -831,7 +848,6 @@ a {
    padding-left: 32px;
    background: url('../img/function/check_green.svg') 0 7px no-repeat;
 }
-
 
 
 .check__item:not(:last-of-type) {
@@ -1044,6 +1060,8 @@ a {
 .about.container {
    max-width: 900px;
    margin: 0 auto 124px;
+   padding-left: 15px;
+   padding-right: 15px;
 }
 
 .about__line {
@@ -1055,6 +1073,7 @@ a {
 
 .about__block {
    display: flex;
+   flex-wrap: wrap;
    gap: 100px;
 }
 
@@ -1079,5 +1098,64 @@ a {
    color: #413bf1;
    opacity: 1;
    transition: 1s ease;
+
+}
+
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1040px;
+  }
+
+  .feature-container {
+     margin: 55px auto 70px;
+  }
+
+  .smart{
+   flex-direction: column-reverse;
+   align-items: center;
+   gap: 50px;
+   margin-bottom: 80px;
+  }
+
+  .header__nav{
+   display: none;
+  }
+
+  .header__button{
+   display: none;
+  }
+
+  .jackpots__right img, .payment__left img{
+   width: 570px;
+  }
+
+  .payment .container{
+      padding: 70px 15px 30px;
+      flex-direction: column;
+
+  }
+
+  .payment__title{
+   max-width: 510px;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .payment__left{
+   margin: auto;
+  }
+
+  .meet.container {
+     margin: 90px auto 70px;
+     max-width: 1110px;
+  }
+.jackpots{
+   margin-bottom: 100px;
+   flex-direction: column-reverse;
+}
+.app {
+   margin: 0 auto 100px;
+}
 
 }
