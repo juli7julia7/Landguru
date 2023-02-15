@@ -424,8 +424,6 @@ a {
 /* =================================================== SECTION APP  =========================================== */
 .app {
    margin: 0 auto 218px;
-   /* padding-left: 15px;
-   padding-right: 15px; */
 }
 
 .container {}
@@ -539,7 +537,7 @@ a {
 
 .function__content {
    max-width: 263px;
-   width: 100%;
+
 }
 
 .function__icon {
@@ -1001,11 +999,6 @@ a {
    color: #0F2137;
 }
 
-.container {}
-
-.question__subtitle {}
-
-.subtitle {}
 
 .question__title {
    font-weight: 700;
@@ -1105,17 +1098,24 @@ a {
    color: #413bf1;
    opacity: 1;
    transition: 1s ease;
-
-
-
 }
 
+/* ================================= MEDIA ==================================== */
 
 @media screen and (max-width: 1200px) {
    .container {
       max-width: 1040px;
    }
 
+   .header {
+      margin-bottom: 70px;
+
+   }
+
+   .preview {
+      border-bottom-right-radius: 200px;
+      padding: 31px 0 90px;
+   }
 
    .feature-container {
       margin: 55px auto 70px;
@@ -1128,7 +1128,6 @@ a {
       width: 450px;
    }
 
-
    .preview__text {
       font-weight: 500;
       font-size: 18px;
@@ -1136,6 +1135,11 @@ a {
       margin-bottom: 30px;
       max-width: 450px;
       width: 100%;
+   }
+
+   .feature__img {
+      max-width: 80px;
+      height: 80px;
    }
 
    .social__text {
@@ -1147,6 +1151,15 @@ a {
       align-items: center;
       gap: 50px;
       margin-bottom: 80px;
+   }
+
+   .smart__img {
+      max-width: 450px;
+      height: 550px;
+   }
+
+   .smart__title {
+      font-size: 40px;
    }
 
    .header__nav {
@@ -1161,6 +1174,14 @@ a {
       gap: 45px;
    }
 
+   .app__title {
+      font-style: 32px;
+      margin-bottom: 50px;
+   }
+
+   .jackpots__title {
+      font-size: 40px;
+   }
 
    .function__title {
       font-weight: 700;
@@ -1171,15 +1192,43 @@ a {
       margin-bottom: 100px;
    }
 
+   .function {
+      padding: 70px 0 100px;
+   }
 
-   .function__content-title-block {
-      max-width: 263px;
+   .function__block {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0;
+   }
 
+   .function__content {
+      width: 35%;
+      max-width: initial;
+      gap: 30px;
+   }
+
+   .function__content-text,
+   .function__content-title,
+   .function__icon {
+      margin: 0 auto;
+   }
+
+   .function__icon {
+      margin-bottom: 20px;
+   }
+
+   .function__content-title {
+      margin-bottom: 20px;
+   }
+
+   .function__content {
+      margin-bottom: 30px;
    }
 
    .jackpots__right img,
    .payment__left img {
-      width: 570px;
+      width: 550px;
    }
 
    .payment .container {
@@ -1189,9 +1238,10 @@ a {
    }
 
    .payment__title {
-      max-width: 510px;
+      max-width: 400px;
       align-items: center;
       justify-content: center;
+      font-size: 40px;
    }
 
    .payment__left {
@@ -1245,10 +1295,15 @@ a {
       margin-bottom: 30px;
    }
 
-      .preview__hero {
-         gap: 50px;
-        flex-direction: column;
-      }
+   .preview__hero {
+      gap: 50px;
+      flex-direction: column;
+   }
+
+   .preview__right img {
+      max-width: 700px;
+      height: 500px;
+   }
 }
 
 @media screen and (max-width: 1090px) {
@@ -1264,4 +1319,246 @@ a {
       gap: 70px;
    }
 
+   .function__content-text,
+   .function__content-title {
+      max-width: 200px;
+   }
+
+}
+
+@media screen and (max-width: 800px) {
+   .container {
+      max-width: 500px;
+   }
+
+   .feature-container {
+      max-width: 500px;
+   }
+
+   .about.container {
+      max-width: 550px;
+      margin: 20px auto 30px;
+   }
+
+   .feature__content {
+      flex-direction: column;
+   }
+
+   .feature__title {
+      font-size: 32px;
+   }
+
+   .feature__titles {
+      margin-bottom: 35px;
+   }
+
+   .feature__content {
+      gap: 50px;
+   }
+
+   .jackpots__title {
+      font-size: 30px;
+      margin-bottom: 30px;
+   }
+
+   .function {
+      padding: 50px 15px 70px;
+   }
+
+   .function__title {
+      margin-bottom: 45px;
+   }
+
+   .function__block {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .function__content {
+      width: 100%;
+      max-width: initial;
+      gap: 30px;
+   }
+
+   .function__content-text,
+   .function__content-title {
+      max-width: 270px;
+   }
+
+   .preview__title {
+      font-size: 52px;
+      line-height: 60px;
+   }
+
+   .preview__right img {
+      max-width: 500px;
+      height: 500px;
+   }
+
+   .payment__left img {
+      max-width: 450px;
+      height: 400px;
+   }
+
+   .plan__title {
+      margin-bottom: 45px;
+   }
+
+   .question {
+      margin: 70px auto 70px;
+      color: #0F2137;
+   }
+
+   .about__content {
+      width: 35%;
+      max-width: initial;
+   }
+
+   .about__title,
+   .about__list {
+      text-align: center;
+   }
+
+   .about__title {
+      margin-bottom: 20px;
+   }
+
+   .preview {
+      border-bottom-right-radius: 100px;
+      padding: 31px 0 30px;
+   }
+
+   .meet__content {
+      max-width: 300px;
+   }
+
+   .question__title {
+
+      font-size: 34px;
+      line-height: 50px;
+      margin-bottom: 52px;
+   }
+
+   .app {
+      margin: 0 auto 70px;
+   }
+
+   .about__block {
+      gap: 50px;
+   }
+
+   .about__line {
+      margin-bottom: 30px;
+   }
+}
+
+@media screen and (max-width: 550px) {
+   .container {
+      max-width: 480px;
+   }
+
+   .feature-container {
+      max-width: 480px;
+   }
+
+   .about.container {
+      max-width: 480px;
+   }
+
+
+   .preview__right img {
+      display: none;
+   }
+
+   .payment__left img {
+      max-width: 360px;
+      height: 360px;
+   }
+
+   .smart__title {
+      font-size: 36px;
+   }
+
+   .smart {
+      padding-left: 15px;
+      padding-right: 15px;
+   }
+
+   .subtitle {
+      margin-bottom: 20px;
+   }
+
+   .jackpots__right img {
+      max-width: 420px;
+   }
+
+   .about__block {
+      gap: 30px;
+   }
+
+   .about__content {
+      width: 50%;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .container {
+      max-width: 310px;
+   }
+
+   .feature-container {
+      max-width: 310px;
+   }
+
+   .about.container {
+      max-width: 310px;
+   }
+
+   .preview__left{
+      margin: 0 auto;
+   }
+
+      .social__content {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 10px;
+         align-items: center;
+      }
+   .preview__title {
+      font-size: 42px;
+      line-height: 50px;
+   }
+
+   .preview__text {
+      max-width: 310px;
+   }
+
+   .preview {
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+
+   .payment__left img {
+      max-width: 360px;
+      height: 360px;
+   }
+
+   .smart__left img {
+      max-width: 290px;
+   }
+
+   .jackpots__right img {
+      max-width: 290px;
+      height: 290px;
+   }
+
+   .payment__left img {
+      max-width: 290px;
+      height: 290px;
+   }
+
+   .social__item img{
+      max-width: 75%;
+   }
 }
