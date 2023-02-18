@@ -1515,16 +1515,17 @@ a {
       max-width: 310px;
    }
 
-   .preview__left{
+   .preview__left {
       margin: 0 auto;
    }
 
-      .social__content {
-         display: flex;
-         flex-wrap: wrap;
-         gap: 10px;
-         align-items: center;
-      }
+   .social__content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+   }
+
    .preview__title {
       font-size: 42px;
       line-height: 50px;
@@ -1558,7 +1559,41 @@ a {
       height: 290px;
    }
 
-   .social__item img{
+   .social__item img {
       max-width: 75%;
+   }
+}
+
+@media screen and (max-width: 360px) {
+   .container {
+      max-width: 290px;
+   }
+
+   .feature-container {
+      max-width: 290px;
+   }
+
+   .about.container {
+      max-width: 2900px;
+   }
+
+   .preview__title {
+      font-size: 38px;
+      line-height: 42px;
+      max-width: 290px;
+   }
+
+   .preview__text {
+      max-width: 290px;
+   }
+
+   .play__contnet {
+      gap: 5px;
+   }
+
+   .preview__play {
+      line-height: 1.4;
+      text-align: center;
+      letter-spacing: -0.16px;
    }
 }
