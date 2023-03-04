@@ -16,8 +16,9 @@ a {
 }
 
 .button {
-   width: 150px;
-   height: 50px;
+   padding: 13px 31px;
+   max-width: 150px;
+   display: inline-block;
    border: 1.5px solid #FFFFFF;
    border-radius: 50px;
    color: #FFFFFF;
@@ -500,7 +501,6 @@ a {
    width: 100%;
    margin-bottom: 30px;
 }
-
 
 
 /* ============================================   SECTION FUNCTION  ================================================== */
